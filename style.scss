@@ -4,23 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Chewy",sans-serif;
+  font-family: "Chewy", sans-serif;
 }
 
 body {
+  overflow: hidden;
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to top, #ffcccc,#ffe6e6);
+  background: linear-gradient(to top, #ffcccc, #ffe6e6);
 }
 
 h1 {
   text-align: center;
   color: #ff3399;
-
 }
 
 canvas {
